@@ -1,0 +1,17 @@
+# Vivaldicode
+Code uploaded for review
+
+
+Laravel
+
+In this Code I have included a Controller, View and a Model page. It was part of the project called ‘Bookmyconsult’. The project is a web application developed in Laravel framework. It is used for doctors and patients to communicate and for scheduling appointments. The part which I have included consists of ‘Doctor Controller’, ‘Doctor Question Answer’ view page & the ‘Doctor model’ page.
+
+API
+
+In this API code I have included the code which calls the API resource file "updateUserDetails.php" which in return processes the data in the server.
+
+Points Redemption
+
+Webscraping using C#
+
+PTA Encryption using C#

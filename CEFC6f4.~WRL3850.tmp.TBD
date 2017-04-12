@@ -19,11 +19,9 @@ The project module was implemented for ‘Oracle Service Cloud CRM (Customer Relat
 The Client wanted to migrate the Customer data (Approximately 2 Million) from there Intranet to Oracle CRM Cloud DB which in reflect in Oracle Service Cloud UI. A script was created for this Data migration. 
 
 
-PTA Encryption using C# (Pass-Through Authentication)
+PTA Encryption using C#
 
-The project module was also implemented for ‘Oracle Service Cloud CRM (Customer Relationship Management)’ solution. 
 
-The Client wanted to use Oracle Service Customer Portal as there ticketing tool. Hence the Customer upon clicking on a button to raise an issue would get redirected to Oracle CRM and also get logged in automatically using their existing Intranet Login Credentials.
 
 Laravel
 
@@ -32,4 +30,5 @@ In this Code I have included a Controller, View and a Model page. It was part of
 API
 
 In this API code I have included the code which calls the API resource file "updateUserDetails.php" which in return processes the data in the server.
+
 
