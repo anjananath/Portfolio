@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <pointsredeem>
+                 <active>0</active>
+                <payment_action>true</payment_action><!-- You can use another methor like capture  -->
+                <model>Voilaah\PointsRedemption\Model\PaymentMethod</model>
+               
+                <title>Points Redemption</title>
+                <order_status>pending</order_status><!-- set default order status-->
+                <group>offline</group>            
+            </pointsredeem>
+        </payment>
+    </default>
+</config>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7d52796f-92a9-4d6b-b1be-939181151d27" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?wsdl=typed" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="soap7.xsd" MetadataType="Schema" ID="5e003c27-beac-427b-b207-6ac135166699" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=messagestyped" />
+    <MetadataFile FileName="soap71.xsd" MetadataType="Schema" ID="d6ce63be-5429-45dc-be0a-b0a293efe19c" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=base" />
+    <MetadataFile FileName="soap72.xsd" MetadataType="Schema" ID="6d688f18-de92-4d85-91a1-a46e13d808d9" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=faults" />
+    <MetadataFile FileName="RightNow1.wsdl" MetadataType="Wsdl" ID="410c96a9-5216-4886-a48d-9e3c56aba057" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?wsdl=typed" />
+    <MetadataFile FileName="soap73.xsd" MetadataType="Schema" ID="51462c89-dc44-4938-a159-0b2b84b0c0fe" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=nullfields" />
+    <MetadataFile FileName="soap74.xsd" MetadataType="Schema" ID="4de449fd-23ab-4e43-9090-6dfcf01dda69" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=objects" />
+    <MetadataFile FileName="soap75.xsd" MetadataType="Schema" ID="8fa2e4ff-0959-441e-bcda-2b3cd295ca43" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=metadata" />
+    <MetadataFile FileName="soap76.xsd" MetadataType="Schema" ID="b3f47cfd-d641-4e80-a952-e76e1cedf584" SourceId="1" SourceUrl="http://opn-speridian.rightnowdemo.com/cgi-bin/opn-speridian.cfg/services/soap?xsd=generic" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

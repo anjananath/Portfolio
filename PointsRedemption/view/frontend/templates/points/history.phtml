@@ -1,0 +1,70 @@
+<?php
+// @codingStandardsIgnoreFile
+?>
+
+<?php $transactions = $block->getPointsTransactions()->getData(); ?>
+<?php echo $block->getChildHtml('info');?>
+
+<div class="block-title">
+    <strong><?php /* @escapeNotVerified */ echo __('My Points') ?></strong>
+</div>
+
+<?php if ($transactions && count($transactions)): ?>
+
+    <div class="table-wrapper points-history">
+
+        <table class="data table table-points-items history" id="my-points-table">
+
+            <caption class="table-caption"><?php /* @escapeNotVerified */ echo __('Points Transactions') ?></caption>
+
+            <thead>
+            <tr>
+                <th scope="col" class="col id"><?php /* @escapeNotVerified */ echo __('Order') ?></th>
+                <th scope="col" class="col date"><?php /* @escapeNotVerified */ echo __('Date') ?></th>
+                <th scope="col" class="col description"><?php /* @escapeNotVerified */ echo __('Description') ?></th>
+                <th scope="col" class="col type"><?php /* @escapeNotVerified */ echo __('Type') ?></th>
+                <th scope="col" class="col amount"><?php /* @escapeNotVerified */ echo __('Amount') ?></th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <?php foreach ($transactions as $transaction) : $order = $block->getOrder($transaction['order_id']) ?>
+
+                <tr>
+                    <td data-th="<?php echo $block->escapeHtml(__('Order')) ?>" class="col id">#<?php /* @escapeNotVerified */ echo $order->getRealOrderId() ?></td>
+                    <td data-th="<?php echo $block->escapeHtml(__('Date')) ?>" class="col date"><?php /* @escapeNotVerified */ echo $block->formatDate($transaction['created_at']) ?></td>
+
+                    <?php
+                    $orderItems = $order->getAllItems();
+
+                    if (!empty($orderItems)) :
+                    ?>
+                        <td data-th="<?php echo $block->escapeHtml(__('Description')) ?>" class="col description">
+                            <?php foreach ($orderItems as $item) : ?>
+                                <p><?php echo $item['name'] . ' x ' . (int) $item['qty_ordered']; ?></p>
+                            <?php endforeach; ?>
+                        </td>
+                    <?php else : ?>
+                        <td data-th="<?php echo $block->escapeHtml(__('Description')) ?>" class="col description"><?php /* @escapeNotVerified */ echo $transaction['description'] ?></td>
+                    <?php endif; ?>
+
+                    <td data-th="<?php echo $block->escapeHtml(__('Type')) ?>" class="col type"><?php /* @escapeNotVerified */ echo $transaction['type'] ?></td>
+                    <td data-th="<?php echo $block->escapeHtml(__('Amount')) ?>" class="col amount"><?php /* @escapeNotVerified */ echo $transaction['amount'] ?></td>
+                </tr>
+
+            <?php endforeach; ?>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <?php if ($block->getPagerHtml()): ?>
+        <div class="points-transactions-toolbar toolbar bottom"><?php echo $block->getPagerHtml(); ?></div>
+    <?php endif ?>
+
+<?php else: ?>
+    <div class="message info empty"><span><?php /* @escapeNotVerified */ echo __('You have no points transaction.'); ?></span></div>
+<?php endif ?>

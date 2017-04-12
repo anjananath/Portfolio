@@ -1,0 +1,6 @@
+D:\old user\Documents\Visual Studio 2010\Projects\PtaLogin\PtaLogin\bin\Debug\PtaLogin.exe.config
+D:\old user\Documents\Visual Studio 2010\Projects\PtaLogin\PtaLogin\bin\Debug\PtaLogin.exe
+D:\old user\Documents\Visual Studio 2010\Projects\PtaLogin\PtaLogin\bin\Debug\PtaLogin.pdb
+D:\old user\Documents\Visual Studio 2010\Projects\PtaLogin\PtaLogin\obj\Debug\PtaLogin.exe
+D:\old user\Documents\Visual Studio 2010\Projects\PtaLogin\PtaLogin\obj\Debug\PtaLogin.pdb
+D:\old user\Documents\Visual Studio 2010\Projects\PtaLogin\PtaLogin\obj\Debug\PtaLogin.csprojResolveAssemblyReference.cache

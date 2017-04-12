@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+
+    <router id="standard">
+        <route id="pointsredemption" frontName="pointsredemption">
+            <module name="Voilaah_PointsRedemption" />
+        </route>
+
+        <route id="customer">
+            <module name="Voilaah_PointsRedemption" after="Magento_Customer"/>
+        </route>
+    </router>
+
+</config>
