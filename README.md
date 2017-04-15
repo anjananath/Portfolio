@@ -33,3 +33,9 @@ In this Code I have included a Controller, View and a Model page. It was part of
 
 In this API code I have included the code which calls the API resource file "updateUserDetails.php" which in return processes the data in the server.
 
+
+Adding on I am active member in Stackoverflow WordPress Forum. I have scored 577 Points and also received 18 Badges for the best suitable answers provided for technical issues with respect to Wordpress.
+
+Link: https://wordpress.stackexchange.com/users/40999/ammu
+
+
