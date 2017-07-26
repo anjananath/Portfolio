@@ -1,5 +1,4 @@
-# Vivaldicode
-Code uploaded for review
+Breif note on Codes uploaded 
 
 1. Points Redemption (Current Project)
 
