@@ -1,6 +1,6 @@
 Breif note on Codes uploaded 
 
-1. Points Redemption (Current Project)
+1. Points Redemption 
 
 During initial stages of Development we used Wordpress, WooCommerce Plugin for the Ecommerce website. However, the plugin could not be used to satisfy Customers requirements. Hence after researching I identified that Magento can be used as an alternative option.
 
